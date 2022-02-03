@@ -23,7 +23,7 @@ setup (
  python_requires='>=3.7',
  entry_points='''
         [console_scripts]
-        most_active_cookie=most_active_cookie.__main__:main
+        most_active_cookie=src.most_active_cookie.__main__:main
     ''',
  author='Jan Jendrusak',
  long_description=README,
