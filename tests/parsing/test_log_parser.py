@@ -10,6 +10,7 @@ from log_parser import LogParser
 
 
 class TestLogParser(object):
+
     @pytest.fixture
     def parser(self):
         return LogParser()
