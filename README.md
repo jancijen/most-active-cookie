@@ -1,6 +1,6 @@
 # Most-active-cookie
 
-Command line app for finding the most active cookie from given logs.
+Command line app for finding the most active cookie in given log file.
 
 ## Installation
 
@@ -10,7 +10,7 @@ $ cd most-active-cookie
 $ python setup.py install
 ```
 
-## Usage
+## Usage - with or without installation
 
 ```bash
 $ most_active_cookie <log_filepath> -d <DATE>
@@ -24,4 +24,11 @@ required named arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
+```
+
+## Testing
+
+```bash
+$ cd test
+$ pytest -v
 ```
