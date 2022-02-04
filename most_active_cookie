@@ -1,0 +1,5 @@
+#!/usr/local/bin/python3
+
+from src.most_active_cookie.__main__ import main
+
+main()
